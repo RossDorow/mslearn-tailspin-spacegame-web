@@ -1,8 +1,7 @@
 trigger:
   - '*'
   
-  pool:
-    vmImage: PROD-FACTORY
+  pool: PROD-FACTORY
   
   variables:
     buildConfiguration: 'Release'
